@@ -1,0 +1,419 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1160px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.btn {}
+
+.btn button {
+    border: none;
+}
+
+.btn button a {
+    background: #0061F2;
+    padding: 10px;
+    border-radius: 7px;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    border: 0.5px solid transparent;
+    transition: 0.5s;
+}
+
+.btn button a:hover {
+    background: #fff;
+    color: #0061F2;
+    border: 0.5px solid #0061F2
+}
+
+/*start header section*/
+.menu_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px 0px;
+}
+
+.logo_section {}
+
+.menu_section {}
+
+.menu {
+    margin-right: 25px;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {}
+
+.menu ul li a {
+    font-size: 18px;
+    color: #B1B1B1;
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+/*end header section*/
+
+/*start baner section*/
+.main_banner_section {
+    background: url(../images/img-1.jpg) no-repeat scroll 0 0 / 100% 100%;
+    height: 90vh;
+    text-align: center;
+    position: relative;
+    
+}
+
+.main_banner_section:after {
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+
+}
+
+.banner_text {
+position: relative;
+    z-index: 99;
+    padding: 120px 0px;
+}
+
+.banner_text h1 {
+    font-size: 35px;
+    color: #fff;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.banner_text p {
+    font-size: 16px;
+    color: #B1B1B1;
+    width: 65%;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+
+/*end baner section*/
+
+
+/*start service section*/
+.main_service_section {
+    padding: 70px 0px;
+}
+
+.service {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.service_item {
+    flex-basis: 33%;
+}
+
+.service_logo {}
+
+.service_logo a {
+    background-image: linear-gradient(to right bottom, #1D58EC, #3150E6, #344FE5, #4947E1, #5941DC, #613FDB, #683CD9, #6F3AD8, #7039D7);
+    padding: 20px 25px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.service_logo a i {
+    color: #fff;
+    font-size: 25px;
+}
+
+.service_text {}
+
+.service_text h2 {
+    font-size: 22px;
+    color: gray;
+    font-weight: 400;
+    padding: 10px 0px;
+}
+
+.service_text p {
+    font-size: 14px;
+    color: #7C8790;
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+/*end service section*/
+
+/*refer company area start*/
+.refer_company_area {
+    background: #F2F6FC;
+    padding: 70px 0px 420px 0px;
+    position: relative;
+}
+
+.company_logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.co_logo {
+    flex-basis: 20%;
+}
+
+.video_section {
+    height: 400px;
+    width: 700px;
+    background: url(../images/img-1.jpg) no-repeat scroll 0 0 / 100% 100%;
+    position: relative;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    transform: translate scale(-50%);
+    display: block;
+}
+
+.s_btn {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 7px solid #fff;
+    border-radius: 2px;
+}
+
+/*refer company area end*/
+
+
+/*design section start*/
+.design_section {
+    background: url(../images/img-2.jpg) no-repeat scroll 0 0 / 100% 100%;
+    padding: 350px 0px;
+}
+
+.design_text {
+    text-align: center;
+}
+
+.design_text h1 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 400;
+    width: 65%;
+    margin: 0 auto;
+
+}
+
+.design_text h1 span {
+    color: #0D61F2;
+}
+
+/*design section end*/
+
+
+/*start product section*/
+.product_section {
+    background: #F2F6FC;
+    padding-top: 70px;
+}
+
+.product {}
+
+.product_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 2px 20px 1px #d8d5d5;
+    border-radius: 10px;
+    margin-bottom: 70px;
+}
+
+.product_item:last-child {
+
+    margin-bottom: 0px;
+}
+
+.product_item_img {
+    flex-basis: 50%;
+    cursor: pointer;
+}
+
+.product_item_img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.img img {
+    border-radius: 0px 10px 10px 0px;
+}
+
+.product_item_text {
+    flex-basis: 50%;
+    align-items: center;
+    text-align: center;
+}
+
+.product_item_text h2 {
+    font-size: 22px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.product_item_text p {
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.product_item_text button {}
+
+.product_item_text button a {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+    color: black;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+/*end product section*/
+
+
+/*get started section start*/
+.get_start {
+    text-align: center;
+    padding: 160px 0px;
+}
+
+.get_text {}
+
+.get_text h2 {
+    font-size: 25px;
+    padding: 20px 0px;
+}
+
+.get_text p {
+    font-size: 16px;
+    font-weight: 400;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 45px;
+}
+
+/*get started section end*/
+
+/*start footer section*/
+.main_footer_section {
+    background: #000000;
+    color: #fff;
+}
+
+.footer_item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item {
+    padding: 120px 0px;
+}
+
+.social_icon {
+    padding: 120px 0px;
+}
+
+.social_icon h1 {
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.item h2 {
+    font-size: 16px;
+    padding: 10px 0px;
+}
+
+.social_icon ul {
+    display: flex;
+    padding-top: 10px;
+}
+
+.social_icon ul li {}
+
+.social_iconul li {}
+
+.social_icon ul li a {
+    color: #fff;
+    padding: 0px 5px;
+
+}
+
+.item ul {}
+
+.item ul li {}
+
+.item ul li a {
+    font-size: 14px;
+    color: #fff;
+    padding: 5px 0px;
+    display: inline-block;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    border-top: 1px solid gray;
+    padding: 50px 0px
+}
+
+.copyright_left {}
+
+.copyright_left p {
+    font-size: 13px;
+    color: #fff;
+}
+
+.copyright_right {}
+
+.copyright_right p {
+    font-size: 13px;
+    color: #fff;
+}
+
+/*end footer section*/
